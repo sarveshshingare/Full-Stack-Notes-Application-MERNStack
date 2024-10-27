@@ -49,6 +49,7 @@ const TagInput = ({ tags, setTags }) => {
           placeholder="Add tags"
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
+          value={inputValue}
         />
         <button
           onClick={() => {
